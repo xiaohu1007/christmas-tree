@@ -1,0 +1,14 @@
+{
+  "name": "christmas-tree",
+  "private": true,
+  "scripts": {
+    "build": "esbuild main.js --bundle --minify --outfile=assets/friends.js"
+  },
+  "dependencies": {
+    "three": "0.169.0",
+    "@mediapipe/tasks-vision": "0.10.22-rc.20250304"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5"
+  }
+}
